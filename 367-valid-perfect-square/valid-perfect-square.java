@@ -3,7 +3,7 @@ class Solution {
         if((int)num==1){
             return true;
         }
-        for(long i=2;i<num;i++){
+        for(long i=2;i*i<=num;i++){
             if(i*i==num){
                 return true;
             }
